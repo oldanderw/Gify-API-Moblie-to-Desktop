@@ -3,26 +3,27 @@
 <head>
     <title>Gify Scearch</title>
     <link rel="stylesheet" href="css/main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="text/javascript" src="js/main.js" defer></script>
   </head>
   <body>
     <header>
       <nav>
-        <a href="/"><img src="" alt="Logo">Gify API Desktop</a> <!-- use turn table img -->
+        <a class="logo" href="/"><img src="Assets/turntable.png" alt="Logo">Gify API Desktop</a> <!-- use turn table img -->
         <ul>
           <li><a href="/">Home</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
-        <!-- <form method="get">
-          <label for="search">Search for the perfect Gif for your needs from yours truly giphy</label>
-            <input type="text" name="search" id="search" placeholder="">
-            <input type="submit" value="Search"> will be img later
-        </form> -->
+        <form method="get" class="js-form">
+          <label for="search">Search for the perfect Gif for your needs</label>
+            <input type="text" value="rainbow" name="search" id="search" placeholder="ex: rainbow">
+             <button type="submit">Search</button>
+        </form>
       </nav>
     </header>
-    <section>
-      <h1>Rusults</h1>
+    <section class="content">
+      <h1 class="Rusults">Rusults</h1>
     </section>
   </body>
 </html>
